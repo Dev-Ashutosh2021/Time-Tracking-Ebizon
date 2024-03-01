@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /wpTableEditor/
+Disallow: /wp-content/wpTableEditor/

@@ -1,0 +1,103 @@
+/* 
+Theme Name:   Inunity - Child Theme
+Theme URI:    https://timetracking.ebizonstaging.com
+Description:  This is my child theme
+Author:       timetracking
+Author URI:   https://timetracking.ebizonstaging.com
+Template:     inunity
+Version:      1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+/* == Add your own styles below this line ==
+--------------------------------------------*/
+body {
+            @import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700|Open+Sans:300,400,600,700);
+            font-family: "Open Sans", sans-serif;
+        }
+
+
+.um-new-dropdown ul li a{
+	text-decoration:none !important;
+	color: #343a40;
+}
+
+.um-new-dropdown ul li a:hover{
+	color: black;
+}
+
+
+.entry-content{
+	padding: 0 !important;
+}
+
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none !important;
+    gap: 10px;
+    padding-top: 20px !important;
+  
+}
+
+
+.no-wrapper{
+	white-space:nowrap !important;
+}
+
+
+.toggle-search{
+	display:none;
+}
+
+
+#footer-bottom #back-to-top{
+	background:none;
+}
+
+.social-links,.um_switch_user-item, .um_put_as_pending-item{
+	display:none !important;
+}
+
+
+.um-member-directory-search-line{
+	width:20vw !important;
+}
+
+#header-bottom{
+	display:none;
+}
+
+.page-title-inner {
+    display: flex;
+    align-items: center;
+}
+
+.page-title-inner h2{
+    margin-right:auto;
+}
+
+#account-info{
+	margin-left:auto;
+}
+
+.entry-header{
+    padding-left: 0 !important;
+}
+
+/* Style for the clicked state */
+.bookmark-button i.fa-bookmark.clicked {
+    color: red; /* Change this to the desired color */
+}
+
+#employee_title{
+	margin-top:0px !important;
+	padding:10px;
+	margin-bottom:10px !important;
+}
+
+.um-account-side ul li a[data-tab="delete"] {
+    display: none !important;
+}
